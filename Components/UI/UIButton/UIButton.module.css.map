@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,aAAa,EAAE,eAAe;EAE9B,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,oBAAoB;EAE7B,KAAK,EAAE,eAAe;EAEtB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAElB,SAAS,EAAE,eAAe;EAC1B,cAAc,EAAE,gBAAgB;EAChC,cAAc,EAAE,cAAc;CAC/B",
+    "sources": [
+        "UIButton.module.scss"
+    ],
+    "names": [],
+    "file": "UIButton.module.css"
+}

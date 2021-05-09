@@ -1,0 +1,17 @@
+.UIButton_Root {
+  border-radius: 99px !important;
+  width: 100%;
+  padding: 4% 0 4% 0 !important;
+  color: #fff !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 16px !important;
+  text-transform: unset !important;
+  letter-spacing: 1px !important;
+}
+/*# sourceMappingURL=UIButton.module.css.map */

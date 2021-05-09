@@ -1,0 +1,36 @@
+.Dashboard {
+  height: 100vh;
+}
+
+.Dashboard_Head {
+  position: relative;
+  background-color: #09121ca4;
+
+  .BG {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/assets/Icons/bg.svg");
+
+    filter: blur(100px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+
+.Dashboard_Content {
+  height: 100vh;
+  width: 100%;
+
+  background-color: #09121c;
+
+  z-index: 111;
+}
+
+.Dashboard_Content {
+  padding-top: 2.5rem;
+}
