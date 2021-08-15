@@ -19,11 +19,13 @@
 
     filter: blur(100px);
     transform: matrix(-1, 0, 0, 1, 0, 0);
+
+    z-index: -1;
   }
 }
 
 .Dashboard_Content {
-  height: 100vh;
+  height: max-content;
   width: 100%;
 
   background-color: #09121c;

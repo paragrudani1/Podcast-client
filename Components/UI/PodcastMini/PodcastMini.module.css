@@ -1,9 +1,13 @@
 .Container {
-  width: 147px;
-  height: 234px;
+  width: 130px !important;
+  height: 250px;
+  background-color: transparent !important;
+  -webkit-box-shadow: unset !important;
+          box-shadow: unset !important;
 }
 
 .Container .PodcastImg {
+  pointer-events: none;
   width: 147px;
   height: 136px;
 }
@@ -14,5 +18,48 @@
   border-radius: 16px 16px 0px 16px;
   width: 100%;
   height: 100%;
+}
+
+.Container .Card_Content {
+  color: #ffffff;
+}
+
+.Container .Card_Content .Title h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.Container .Card_Content .Time p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+  color: #898f97;
+  margin-left: 10px;
+}
+
+.Container .Card_Content .Author h6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  /* identical to box height, or 18px */
+  color: #ffffff;
+  margin-left: 7px;
+  letter-spacing: 1px;
+}
+
+.Container .Card_Content .Author img {
+  width: 16px;
+  height: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
 }
 /*# sourceMappingURL=PodcastMini.module.css.map */

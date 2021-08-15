@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "Components/UI/atoms/Drag-Slider/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=PodcastTabContent.module.css.map */
+.Container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.Scroll_Container {
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 200;
+  color: #545469;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=PodcastTabContent.module.css.map */

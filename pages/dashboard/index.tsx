@@ -1,9 +1,10 @@
 import React from "react";
 import classes from "./Dashboard.module.css";
-import Navbar from "../../Components/Dashboard/Navbar/Navbar";
+import Navbar from "../../Components/UI/Navbar/Navbar";
 import PodcastCard from "../../Components/UI/PodcastCard/PodcastCard";
 import clsx from "clsx";
 import PodcastSection from "../../Components/Dashboard/PodcastSection/PodcastSection";
+import PodcastsAuthors from "../../Components/Dashboard/PodcastsAuthors/PodcastsAuthors";
 
 const Index: React.FC = () => {
   return (
@@ -30,6 +31,8 @@ const Index: React.FC = () => {
       </div>
       <div className={clsx(classes.Dashboard_Content)}>
         <PodcastSection />
+        <PodcastsAuthors />
+
       </div>
     </section>
   );

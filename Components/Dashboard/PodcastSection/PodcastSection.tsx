@@ -7,14 +7,15 @@ import PodcastTabContent from "./PodcastTabContent/PodcastTabContent";
 const PodcastSection: React.FC = () => {
   return (
     <div className={clsx(classes.Container, "container")}>
-      <div className="col-md-10 m-auto">
+      <div style={{ marginLeft: "8%" }}>
         <div className={classes.Section_Title}>
           <h1>Listen podcast</h1>
         </div>
 
         <PodcastTabs />
-        <PodcastTabContent />
       </div>
+
+      <PodcastTabContent />
     </div>
   );
 };

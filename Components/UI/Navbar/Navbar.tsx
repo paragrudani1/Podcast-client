@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     : [classes.line3];
 
   return (
-    <nav className={clsx(classes.Navbar, "mt-5")}>
+    <nav className={clsx(classes.Navbar, "mt-3")}>
       <div className={classes.Logo}>
         <img src="/assets/Main/LOGO.svg" alt="logo" />
       </div>

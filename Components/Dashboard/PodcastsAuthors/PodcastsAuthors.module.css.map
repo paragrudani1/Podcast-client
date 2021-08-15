@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,UADQ,CACR,cAAc,CAAC;EACX,WAAW,EAAE,EAAE;CAUlB;;AAZH,AAGI,UAHM,CACR,cAAc,CAEZ,EAAE,CAAC;EACD,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EAEjB,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "PodcastsAuthors.module.scss"
+    ],
+    "names": [],
+    "file": "PodcastsAuthors.module.css"
+}
